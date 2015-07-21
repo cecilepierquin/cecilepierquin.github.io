@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #493f36;
+}
+h1, h2 {
+  font-family: "Dancing Script";;
+  text-align: center;
+  color: #f1703e;
+}
+
+
+@media (min-width: 950px) { 
+  body {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 950px) { 
+  body {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 4.4em;
+}
+
+@media (max-width: 460px) { 
+  h1 {
+    font-size: 3.3em;
+  }
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+.gros {
+  color: #68a862;
+  font-size: 2.94em;
+}
+
+.moyen {
+  color: #d8a058;
+  font-size: 1.7em;
+}
+
+.highlight {
+  color: #24a0d8;
+}
+
+.petit {
+  font-size: 0.7em;
+}
+
+

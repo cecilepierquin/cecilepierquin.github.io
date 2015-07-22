@@ -2,20 +2,103 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #493f36;
 }
-h1, h2 {
+
+/* pour ne pas que la barre de navigation mange sur les titres suite à une navigation */
+header {
+  padding-top: 50px;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+/* pour que les images soient centrées dans les caroussels */
+.carousel-inner > .item > img {
+      margin: 0 auto;
+    }
+
+/* pas d'ombre au bord des caroussels */
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/* navbar au centre */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.navbar .navbar-home {
+    display: inline-block;
+}
+
+
+@media (max-width: 768px) {
+  .navbar .navbar-home {
+      padding-left: 15px;
+  }
+}
+
+/* navbar dépliée au centre */
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar li a {
+  text-transform: uppercase;
+  color: #3a3a3a;
+}
+
+@media (max-width: 900px) {
+  .navbar li a {
+    font-size: 0.35em;
+  }
+}
+
+@media (min-width: 900px) {
+  .navbar li a {
+    font-size: 0.5em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar li a {
+    font-size: 0.6em;
+  }
+}
+
+@media (min-width: 1220px) {
+  .navbar li a {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 1436px) {
+  .navbar li a {
+    font-size: 1em;
+  }
+}
+
+h1, h2, .navbar-link {
   font-family: "Dancing Script";;
   text-align: center;
   color: #f1703e;
 }
 
-
-@media (min-width: 950px) { 
-  body {
-    font-size: 36px;
-  }
+.navbar-link:hover, .navbar-link:focus {
+  text-decoration: none;
 }
 
-@media (max-width: 950px) { 
+.navbar-default .navbar-link {
+  color: #f1703e;
+}
+
+body, .navbar-default {
+  font-size: 36px;
+}
+
+@media (max-width: 950px) {
   body {
     font-size: 18px;
   }
@@ -25,9 +108,13 @@ h1 {
   font-size: 4.4em;
 }
 
-@media (max-width: 460px) { 
+@media (max-width: 768px) {
   h1 {
     font-size: 3.3em;
+    display:none;
+  }
+  .navbar-default .navbar-link {
+    font-size: 1em;
   }
 }
 
@@ -52,5 +139,4 @@ h2 {
 .petit {
   font-size: 0.7em;
 }
-
 

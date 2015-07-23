@@ -12,10 +12,13 @@ h2 {
   padding-top: 40px;
 }
 
+section:nth-child(odd) {
+  background-color: #f6f4f2;
+}
 /* pour que les images soient centrées dans les caroussels */
 .carousel-inner > .item > img {
       margin: 0 auto;
-    }
+}
 
 /* pas d'ombre au bord des caroussels */
 .carousel-control.left, .carousel-control.right {

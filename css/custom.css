@@ -126,13 +126,19 @@ h2 {
 }
 
 .gros {
-  color: #68a862;
   font-size: 2.94em;
 }
 
+#about .gros {
+  color: #68a862;
+}
+
 .moyen {
-  color: #d8a058;
   font-size: 1.7em;
+}
+
+#about .moyen {
+  color: #d8a058;
 }
 
 .highlight {

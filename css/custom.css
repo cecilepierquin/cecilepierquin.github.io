@@ -47,7 +47,7 @@ section:nth-child(odd), footer {
   }
 }
 
-/* navbar dépliée au centre */
+/* les liens dans la navbar dépliée sont centrés */
 .navbar .navbar-collapse {
     text-align: center;
 }

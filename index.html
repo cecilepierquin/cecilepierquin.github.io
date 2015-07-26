@@ -23,6 +23,9 @@
 
     <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
     <link rel="stylesheet" href="css/custom.css">
   </head>
   <body>
@@ -102,63 +105,35 @@
               <span class="highlight"> private companies </span>.
             </div>
           </div>
-          <div id="carousel-illustration" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-illustration" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-illustration" data-slide-to="1"></li>
-              <li data-target="#carousel-illustration" data-slide-to="2"></li>
-              <li data-target="#carousel-illustration" data-slide-to="3"></li>
-              <li data-target="#carousel-illustration" data-slide-to="4"></li>
-              <li data-target="#carousel-illustration" data-slide-to="5"></li>
-              <li data-target="#carousel-illustration" data-slide-to="6"></li>
-              <li data-target="#carousel-illustration" data-slide-to="7"></li>
-              <li data-target="#carousel-illustration" data-slide-to="8"></li>
-              <li data-target="#carousel-illustration" data-slide-to="9"></li>
-              <li data-target="#carousel-illustration" data-slide-to="10"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="images/cecile-pierquin_little-red-riding-hood1.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_food1.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_cheers-in1.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_eco-friendly-calendar1.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_eco-friendly-game1.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_fairy-in-love1.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_girls-boys.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_merry-christmas1.jpg">
-              </div>
-              <div class="item">
-                <img src="images/cecile-pierquin_venice-pastry-chef1.jpg">
-              </div>
-
-            </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-illustration" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-illustration" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div> <!--carrousel-->
+          <div class="illustration-carousel">
+                <div>
+                  <img src="images/cecile-pierquin_little-red-riding-hood1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_food1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_cheers-in1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_eco-friendly-calendar1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_eco-friendly-game1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_fairy-in-love1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_girls-boys.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_merry-christmas1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_venice-pastry-chef1.jpg">
+                </div>
+          </div>
       </div>
     </section>
     <section id="design">
@@ -202,6 +177,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.illustration-carousel').slick({
+          autoplay: true,
+          arrows: false
+        });
+      });
+    </script>
     <script src="js/custom.js"></script>
   <footer>
       <div class="container-fluid">

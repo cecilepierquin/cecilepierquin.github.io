@@ -15,6 +15,12 @@ h2 {
 .carousel {
   padding-top: 3ex;
 }
+
+/* l'image dans le carousel ne doit pas être plus large que l'écran */
+.carousel img {
+  max-width: 100%;
+}
+
 section {
   padding-bottom: 3ex;
 }
@@ -24,11 +30,6 @@ section:nth-child(odd), footer {
 
 img {
   margin: 0 auto;
-}
-
-/* pas d'ombre au bord des caroussels */
-.carousel-control.left, .carousel-control.right {
-    background-image: none
 }
 
 /* navbar au centre */
@@ -141,4 +142,3 @@ footer {
   font-size: 0.5em;
   padding: 7ex;
 }
-

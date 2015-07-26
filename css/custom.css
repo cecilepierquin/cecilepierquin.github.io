@@ -13,7 +13,7 @@ h2 {
 }
 
 section {
-  padding-bottom: 2ex;
+  padding-bottom: 3ex;
 }
 section:nth-child(odd), footer {
   background-color: #f6f4f2;
@@ -66,24 +66,6 @@ section:nth-child(odd), footer {
 @media (min-width: 900px) {
   .navbar li a {
     font-size: 0.5em;
-  }
-}
-
-@media (min-width: 1000px) {
-  .navbar li a {
-    font-size: 0.6em;
-  }
-}
-
-@media (min-width: 1220px) {
-  .navbar li a {
-    font-size: 0.8em;
-  }
-}
-
-@media (min-width: 1436px) {
-  .navbar li a {
-    font-size: 1em;
   }
 }
 

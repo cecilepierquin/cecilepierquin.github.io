@@ -105,7 +105,7 @@
               <span class="highlight"> private companies </span>.
             </div>
           </div>
-          <div class="illustration-carousel">
+          <div class="carousel illustration-carousel">
                 <div>
                   <img src="images/cecile-pierquin_little-red-riding-hood1.jpg">
                 </div>
@@ -151,6 +151,17 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="carousel design-carousel">
+            <div><img src="images/logo_bnp-paribas.jpg"></div>
+            <div><img src="images/logo_carrefour.jpg"></div>
+            <div><img src="images/logo_danone.jpg"></div>
+            <div><img src="images/logo_hsbc.jpg"></div>
+            <div><img src="images/logo_microsoft.jpg"></div>
+            <div><img src="images/logo_rep-fr.jpg"></div>
+            <div><img src="images/logo_thalys.jpg"></div>
+        </div>
+      </div>
     </section>
     <section id="getintouch">
       <div class="container-fluid">
@@ -184,7 +195,41 @@
       $(document).ready(function(){
         $('.illustration-carousel').slick({
           autoplay: true,
-          arrows: false
+          arrows: false,
+          autoplayspeed: 1000
+        });
+        $('.design-carousel').slick({
+          autoplay: true,
+          arrows: false,
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplayspeed: 500,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4
+              }
+            },
+            {
+              breakpoint: 970,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+          ]
         });
       });
     </script>

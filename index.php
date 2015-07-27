@@ -127,13 +127,13 @@
       </div>
       <div class="container">
         <div class="carousel design-carousel">
-            <div><a href="deux.php#une_colonne"><img src="images/logo_bnp-paribas.jpg"></a></div>
-            <div><a href="deux.php#une_colonne"><img src="images/logo_carrefour.jpg"></a></div>
-            <div><a href="deux.php#deux_colonnes"><img src="images/logo_danone.jpg"></a></div>
-            <div><a href="deux.php#deux_colonnes"><img src="images/logo_hsbc.jpg"></a></div>
-            <div><a href="deux.php#deux_colonnes"><img src="images/logo_microsoft.jpg"></a></div>
-            <div><a href="deux.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
-            <div><a href="deux.php#trois_colonnes"<<img src="images/logo_thalys.jpg"></a></div>
+            <div><a href="design.php#une_colonne"><img src="images/logo_bnp-paribas.jpg"></a></div>
+            <div><a href="design.php#une_colonne"><img src="images/logo_carrefour.jpg"></a></div>
+            <div><a href="design.php#deux_colonnes"><img src="images/logo_danone.jpg"></a></div>
+            <div><a href="design.php#deux_colonnes"><img src="images/logo_hsbc.jpg"></a></div>
+            <div><a href="design.php#deux_colonnes"><img src="images/logo_microsoft.jpg"></a></div>
+            <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
+            <div><a href="design.php#trois_colonnes"<<img src="images/logo_thalys.jpg"></a></div>
         </div>
       </div>
     </section>

@@ -1,7 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php include 'includes/head.html'?>
-<?php include 'includes/navbar.html'?>
+
+  <body id="home">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-home">
+            <a class="navbar-link" href="#">Cécile Pierquin</a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-links">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navigation-links">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#illustration">Illustration</a></li>
+            <li><a href="#design">Interactive visual design</a></li>
+            <li><a href="#getintouch">Get in touch</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <header>
       <div class="container-fluid">
           <div class="row">
@@ -101,13 +127,13 @@
       </div>
       <div class="container">
         <div class="carousel design-carousel">
-            <div><img src="images/logo_bnp-paribas.jpg"></div>
-            <div><img src="images/logo_carrefour.jpg"></div>
-            <div><img src="images/logo_danone.jpg"></div>
-            <div><img src="images/logo_hsbc.jpg"></div>
-            <div><img src="images/logo_microsoft.jpg"></div>
-            <div><img src="images/logo_rep-fr.jpg"></div>
-            <div><img src="images/logo_thalys.jpg"></div>
+            <div><a href="deux.php#une_colonne"><img src="images/logo_bnp-paribas.jpg"></a></div>
+            <div><a href="deux.php#une_colonne"><img src="images/logo_carrefour.jpg"></a></div>
+            <div><a href="deux.php#deux_colonnes"><img src="images/logo_danone.jpg"></a></div>
+            <div><a href="deux.php#deux_colonnes"><img src="images/logo_hsbc.jpg"></a></div>
+            <div><a href="deux.php#deux_colonnes"><img src="images/logo_microsoft.jpg"></a></div>
+            <div><a href="deux.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
+            <div><a href="deux.php#trois_colonnes"<<img src="images/logo_thalys.jpg"></a></div>
         </div>
       </div>
     </section>

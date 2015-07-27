@@ -21,10 +21,11 @@ h2 {
   max-width: 100%;
 }
 
-section {
+#home section {
   padding-bottom: 3ex;
 }
-section:nth-child(odd), footer {
+
+#home section:nth-child(odd), footer {
   background-color: #f6f4f2;
 }
 
@@ -146,8 +147,8 @@ footer {
 
 /* spécifique à la deuxième page */
 
-div.selection {
-  padding-top: 1ex;
+#design #intro {
+  padding-bottom: 1ex;
 }
 
 .selection .row {

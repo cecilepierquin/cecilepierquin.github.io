@@ -142,3 +142,27 @@ footer {
   font-size: 0.5em;
   padding: 7ex;
 }
+
+
+/* spécifique à la deuxième page */
+
+div.selection {
+  padding-top: 1ex;
+}
+
+.selection .row {
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+}
+
+div.legende {
+  padding-top: 1ex;
+}
+
+.legende {
+  text-align: center;
+}
+
+.trespetit {
+  font-size: 0.5em;
+}

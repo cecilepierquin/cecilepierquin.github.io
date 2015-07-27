@@ -5,3 +5,46 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+/* demarre les caroussels */
+
+$(document).ready(function(){
+  $('.illustration-carousel').slick({
+    autoplay: true,
+    arrows: false,
+    autoplayspeed: 5000
+  });
+  $('.design-carousel').slick({
+    autoplay: true,
+    arrows: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplayspeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 970,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});

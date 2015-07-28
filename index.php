@@ -102,7 +102,7 @@
                   <img src="images/cecile-pierquin_eco-friendly-game1.jpg">
                 </div>
                 <div>
-                  <img src="images/cecile-pierquin_fairy-in-love1.jpg">
+                  <img src="images/cecile-pierquin_fairy-in-love2.jpg">
                 </div>
                 <div>
                   <img src="images/cecile-pierquin_girls-boys.jpg">
@@ -112,6 +112,9 @@
                 </div>
                 <div>
                   <img src="images/cecile-pierquin_venice-pastry-chef1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_artimino-archeological-museum.jpg">
                 </div>
           </div>
       </div>
@@ -140,6 +143,7 @@
             <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
             <div><a href="design.php#trois_colonnes"<<img src="images/logo_thalys.jpg"></a></div>
         </div>
+         <img src="images/cecile-pierquin_line-florence2.jpg" class="img-responsive"/>
       </div>
     </section>
     <section id="getintouch">
@@ -162,7 +166,6 @@
         </div>
       </div>
     </section>
-
 
 <?php include 'includes/scripts.html'?>
 <?php include 'includes/footer.html'?>

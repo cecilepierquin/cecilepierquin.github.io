@@ -14,6 +14,8 @@ h2 {
 
 .carousel {
   padding-top: 3ex;
+  padding-left: 3ex;
+  padding-right: 3ex;
 }
 
 /* l'image dans le carousel ne doit pas être plus large que l'écran */
@@ -23,6 +25,10 @@ h2 {
 
 #home section {
   padding-bottom: 3ex;
+}
+
+#home #design, #home #getintouch {
+  padding-bottom: 0ex;
 }
 
 #home section:nth-child(odd), footer {
@@ -42,6 +48,8 @@ img {
 
 .navbar .navbar-home {
     display: inline-block;
+    position: fixed;
+    padding-top: 0.4em;
 }
 
 
@@ -63,13 +71,18 @@ img {
 
 @media (max-width: 900px) {
   .navbar li a {
-    font-size: 0.35em;
+    font-size: 0.5em;
   }
 }
 
 @media (min-width: 900px) {
   .navbar li a {
     font-size: 0.5em;
+  }
+  .carousel {
+    padding-right: 10em;
+    padding-left: 10em;
+      
   }
 }
 
@@ -88,7 +101,7 @@ h1, h2, .navbar-link {
 }
 
 body, .navbar-default {
-  font-size: 36px;
+  font-size: 20px;
 }
 
 @media (max-width: 950px) {
@@ -108,6 +121,9 @@ h1 {
   }
   .navbar-default .navbar-link {
     font-size: 1em;
+  }
+  footer {
+  font-size: 1.8em;
   }
 }
 
@@ -144,6 +160,17 @@ footer {
   padding: 7ex;
 }
 
+#line-airport {
+  padding-top: 1.5em;
+}
+
+#line-florence {
+  padding-top: 1.5em;
+}
+
+#line-beach {
+  padding-top: 1.5em;
+}
 
 /* spécifique à la deuxième page */
 

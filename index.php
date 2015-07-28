@@ -4,7 +4,7 @@
 
   <body id="home">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <div class="navbar-home">
             <a class="navbar-link" href="#">Cécile Pierquin</a>
@@ -29,10 +29,10 @@
     </nav>
 
     <header>
-      <div class="container-fluid">
+      <div class="container">
           <div class="row">
             <h1>Cécile Pierquin</h1>
-            <img src="images/cecile-pierquin_line-airport.jpg" class="img-responsive"/>
+            <img id="line-airport" src="images/cecile-pierquin_line-airport.jpg" class="img-responsive"/>
           </div>
       </div>
     </header>
@@ -143,11 +143,11 @@
             <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
             <div><a href="design.php#trois_colonnes"<<img src="images/logo_thalys.jpg"></a></div>
         </div>
-         <img src="images/cecile-pierquin_line-florence2.jpg" class="img-responsive"/>
+         <img id="line-florence" src="images/cecile-pierquin_line-florence2.jpg" class="img-responsive"/>
       </div>
     </section>
     <section id="getintouch">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <h2>Get in touch</h2>
           <div class="col-lg-12 text-center">
@@ -162,7 +162,7 @@
               + 356 99 59 73 53
             </span>
           </div>
-          <img src="images/cecile-pierquin_line-beach.jpg" class="img-responsive"/>
+          <img id="line-beach" src="images/cecile-pierquin_line-beach.jpg" class="img-responsive"/>
         </div>
       </div>
     </section>

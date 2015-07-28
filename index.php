@@ -56,7 +56,7 @@
                 <br>
                 <br>
                 I freelance for several 
-                <span class="highlight"> advertising agencies </span> ,
+                <span class="highlight"> advertising agencies</span>,
                 <span class="highlight"> publishers </span> and
                 <span class="highlight"> private companies </span><br>
                 <span class="petit">such as Havas Worldwide,  Angie, 4uatre, Thinktank, EDF ENR, Dada, Lafont Press, etc...</span>
@@ -75,8 +75,8 @@
             <h2>Illustration</h2>
             <div class="col-lg-12 text-center">
               Selection of 
-              <span class="moyen">personal</span> and 
-              <span class="moyen">commissioned </span>projects
+              <span class="gros">personal</span> and 
+              <span class="moyen">commissioned projects </span>
               <br>
               <span class="petit">carried out in collaboration with</span>
               <span class="highlight"> advertising agencies</span>,

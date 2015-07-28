@@ -114,7 +114,25 @@
                   <img src="images/cecile-pierquin_venice-pastry-chef1.jpg">
                 </div>
                 <div>
+                  <img src="images/cecile-pierquin_malta1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_animals1.jpg">
+                </div>
+                <div>
                   <img src="images/cecile-pierquin_artimino-archeological-museum.jpg">
+                </div>
+                 <div>
+                  <img src="images/cecile-pierquin_valentin1.jpg">
+                </div>
+                <div>
+                  <img src="images/cecile-pierquin_cheers-in2.jpg">
+                </div>
+                 <div>
+                  <img src="images/cecile-pierquin_christmas-label.jpg">
+                 </div>
+                <div>
+                  <img src="images/cecile-pierquin_italy1.jpg">
                 </div>
           </div>
       </div>
@@ -152,7 +170,7 @@
           <h2>Get in touch</h2>
           <div class="col-lg-12 text-center">
             Intersted in
-            <span class="gros">working together</span> ?
+            <span class="moyen">working</span> <span class="gros">together</span> ?
             <br>
             <span class="emailadress">
               <a href="mailto:cecile@pierquin.com">cecile@pierquin.com</a>

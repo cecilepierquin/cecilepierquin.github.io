@@ -21,7 +21,7 @@
           <ul class="nav navbar-nav">
             <li><a href="#about">About</a></li>
             <li><a href="#illustration">Illustration</a></li>
-            <li><a href="#design">Interactive visual design</a></li>
+            <li><a href="#design">Visual design</a></li>
             <li><a href="#getintouch">Get in touch</a></li>
           </ul>
         </div>
@@ -44,23 +44,27 @@
               <div class="col-lg-12 text-center">
                 I am an 
                 <span class="gros">illustrator</span>
-                and an 
-                <span class="moyen">interactive graphic designer</span>
+                and a 
+                <span class="moyen">visual designer</span>
                 based in Malta.<br>
                 I create vector illustrations and I design creative solutions for websites and online campaigns.
                 <br>
                 <br>
                 Across different
                 <span class="highlight">countries</span><br>
-                <span class="petit">such asFrance, Italy, Malta, China, etc...</span>
+                <span class="petit">such as France, Italy, Malta, China, etc...</span>
                 <br>
                 <br>
                 I freelance for several 
                 <span class="highlight"> advertising agencies </span> ,
                 <span class="highlight"> publishers </span> and
-                <span class="highlight"> private companies </span>
+                <span class="highlight"> private companies </span><br>
+                <span class="petit">such as Havas Worldwide,  Angie, 4uatre, Thinktank, EDF ENR, Dada, Lafont Press, etc...</span>
                 <br>
-                <span class="petit">such as Havas, Euro RSCG, Angie Interactive, 4uatre, Thinktank, EDF ENR, Dada, etc...</span>
+                <br>
+                On major
+                <span class="highlight">brands</span><br>
+                <span class="petit">such as Microsoft, Renault, HSBC, Carrefour, Danone, Deloitte, Thalys, Decathlon, etc…</span>
               </div>
           </div>
       </div>
@@ -71,12 +75,14 @@
             <h2>Illustration</h2>
             <div class="col-lg-12 text-center">
               Selection of 
-              <span class="gros">personal</span> and 
-              <span class="moyen">commissioned projects</span>
+              <span class="moyen">personal</span> and 
+              <span class="moyen">commissioned </span>projects
               <br>
-              <span class="highlight"> advertising agencies </span> ,
-              <span class="highlight"> publishers </span> and
-              <span class="highlight"> private companies </span>.
+              <span class="petit">carried out in collaboration with</span>
+              <span class="highlight"> advertising agencies</span>,
+              <span class="highlight"> publishers </span>
+               <span class="petit">and</span>
+              <span class="highlight"> private companies</span>.
             </div>
           </div>
           <div class="carousel illustration-carousel">
@@ -113,15 +119,14 @@
     <section id="design">
       <div class="container-fluid">
         <div class="row">
-          <h2>Interactive graphic design</h2>
+          <h2>Visual design</h2>
             <div class="col-lg-12 text-center">
-            Selection of 
-            <span class="gros">personal</span> and 
+            Selection of
             <span class="moyen">commissioned projects</span>
             <br>
-            <span class="highlight"> advertising agencies </span> ,
-            <span class="highlight"> publishers </span> and
-            <span class="highlight"> private companies </span>.
+            <span class="petit">carried out in collaboration with</span>
+            <span class="highlight"> advertising agencies</span> and
+            <span class="highlight"> private companies</span>.
           </div>
         </div>
       </div>

@@ -155,7 +155,7 @@
         <div class="carousel design-carousel">
             <div><a href="design.php#une_colonne"><img src="images/cecile-pierquin_microsoft-a.jpg"></a></div>
             <div><a href="design.php#une_colonne"><img src="images/cecile-pierquin_thalys-a.jpg"></a></div>
-            <div><a href="design.php#deux_colonnes"><img src="images/logo_danone.jpg"></a></div>
+            <div><a href="design.php#deux_colonnes"><img src="images/cecile-pierquin_edfenr-a.jpg"></a></div>
             <div><a href="design.php#deux_colonnes"><img src="images/logo_hsbc.jpg"></a></div>
             <div><a href="design.php#deux_colonnes"><img src="images/logo_microsoft.jpg"></a></div>
             <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>

@@ -19,6 +19,7 @@ $(document).ready(function(){
     arrows: false,
     slidesToShow: 5,
     slidesToScroll: 1,
+    swipeToSlide:true,
     autoplayspeed: 3000,
     responsive: [
       {

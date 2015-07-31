@@ -153,16 +153,15 @@
       </div>
       <div class="container">
         <div class="carousel design-carousel">
-            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_bnp-paribas.jpg"></a></div>
-            <div><a href="design.php#une_colonne"><img src="images/cecile-pierquin_microsoft-a.jpg"></a></div>
-            <div><a href="design.php#une_colonne"><img src="images/cecile-pierquin_thalys-a.jpg"></a></div>
-            <div><a href="design.php#deux_colonnes"><img src="images/cecile-pierquin_edfenr-a.jpg"></a></div>
-            <div><a href="design.php#deux_colonnes"><img src="images/logo_hsbc.jpg"></a></div>
-            <div><a href="design.php#deux_colonnes"><img src="images/logo_microsoft.jpg"></a></div>
-            <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
-            <div><a href="design.php#trois_colonnes"><img src="images/logo_thalys.jpg"></a></div>
-            <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
-            <div><a href="design.php#trois_colonnes"><img src="images/logo_thalys.jpg"></a></div>
+            <div><a href="#modal_microsoft" data-toggle="modal"><img src="images/cecile-pierquin_microsoft-a.jpg"></a></div>
+            <div><a href="#modal_thalys" data-toggle="modal"><img src="images/cecile-pierquin_thalys-a.jpg"></a></div>
+            <div><a href="#modal_edfenr" data-toggle="modal"><img src="images/cecile-pierquin_edfenr-a.jpg"></a></div>
+            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_hsbc.jpg"></a></div>
+            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_microsoft.jpg"></a></div>
+            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_rep-fr.jpg"></a></div>
+            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_thalys.jpg"></a></div>
+            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_rep-fr.jpg"></a></div>
+            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_thalys.jpg"></a></div>
         </div>
          <img id="line-florence" src="images/cecile-pierquin_line-florence2.jpg" class="img-responsive"/>
       </div>
@@ -189,7 +188,7 @@
     </section>
 
 <!-- Modal -->
-<div class="modal fade" id="modal_bnp" tabindex="-1">
+<div class="modal fade" id="modal_microsoft" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -203,6 +202,35 @@
     </div>
   </div>
 </div>
+<div class="modal fade" id="modal_thalys" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+            <img src="images/design/cecile-pierquin_exemple1.jpg" class="img-responsive">
+            <div class="legende">
+              <p>Online advertising for <strong>EDF-ENR</strong>, the french national provider of solar energy
+              <p class="petit">Newsletters, web banners, mail, landing pages, Facebook covers, visual, etc ...
+              <p class="trespetit">Commionned by <strong>EDF-ENR</strong> (Paris France)
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal_edfenr" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+            <img src="images/design/cecile-pierquin_exemple1.jpg" class="img-responsive">
+            <div class="legende">
+              <p>Online advertising for <strong>EDF-ENR</strong>, the french national provider of solar energy
+              <p class="petit">Newsletters, web banners, mail, landing pages, Facebook covers, visual, etc ...
+              <p class="trespetit">Commionned by <strong>EDF-ENR</strong> (Paris France)
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
 
 <?php include 'includes/scripts.html'?>
 <?php include 'includes/footer.html'?>

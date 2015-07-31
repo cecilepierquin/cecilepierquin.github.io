@@ -159,7 +159,9 @@
             <div><a href="design.php#deux_colonnes"><img src="images/logo_hsbc.jpg"></a></div>
             <div><a href="design.php#deux_colonnes"><img src="images/logo_microsoft.jpg"></a></div>
             <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
-            <div><a href="design.php#trois_colonnes"<img src="images/logo_thalys.jpg"></a></div>
+            <div><a href="design.php#trois_colonnes"><img src="images/logo_thalys.jpg"></a></div>
+            <div><a href="design.php#trois_colonnes"><img src="images/logo_rep-fr.jpg"></a></div>
+            <div><a href="design.php#trois_colonnes"><img src="images/logo_thalys.jpg"></a></div>
         </div>
          <img id="line-florence" src="images/cecile-pierquin_line-florence2.jpg" class="img-responsive"/>
       </div>

@@ -153,7 +153,7 @@
       </div>
       <div class="container">
         <div class="carousel design-carousel">
-            <div><a href="design.php#une_colonne"><img src="images/logo_bnp-paribas.jpg"></a></div>
+            <div><a href="design.php#une_colonne"><img src="images/cecile-pierquin_microsoft-a.jpg"></a></div>
             <div><a href="design.php#une_colonne"><img src="images/logo_carrefour.jpg"></a></div>
             <div><a href="design.php#deux_colonnes"><img src="images/logo_danone.jpg"></a></div>
             <div><a href="design.php#deux_colonnes"><img src="images/logo_hsbc.jpg"></a></div>

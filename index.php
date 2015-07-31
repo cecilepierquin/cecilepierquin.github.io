@@ -172,11 +172,11 @@
             Intersted in
             <span class="moyen">working</span> <span class="gros">together</span> ?
             <br>
-            <span class="emailadress">
+            <span class="emailadress petit">
               <a href="mailto:cecile@pierquin.com">cecile@pierquin.com</a>
             </span>
             / 
-            <span class="phonenumber">
+            <span class="phonenumber petit">
               + 356 99 59 73 53
             </span>
           </div>

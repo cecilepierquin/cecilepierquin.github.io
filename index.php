@@ -153,6 +153,7 @@
       </div>
       <div class="container">
         <div class="carousel design-carousel">
+            <div><a href="#modal_bnp" data-toggle="modal"><img src="images/logo_bnp-paribas.jpg"></a></div>
             <div><a href="design.php#une_colonne"><img src="images/cecile-pierquin_microsoft-a.jpg"></a></div>
             <div><a href="design.php#une_colonne"><img src="images/cecile-pierquin_thalys-a.jpg"></a></div>
             <div><a href="design.php#deux_colonnes"><img src="images/cecile-pierquin_edfenr-a.jpg"></a></div>
@@ -186,6 +187,28 @@
         </div>
       </div>
     </section>
+
+<!-- Modal -->
+<div class="modal fade" id="modal_bnp" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        <h4 class="modal-title">EDF</h4>
+      </div>
+      <div class="modal-body">
+            <img src="images/design/cecile-pierquin_exemple1.jpg" class="img-responsive">
+            <div class="legende">
+              <p>Online advertising for <strong>EDF-ENR</strong>, the french national provider of solar energy
+              <p class="petit">Newsletters, web banners, mail, landing pages, Facebook covers, visual, etc ...
+              <p class="trespetit">Commionned by <strong>EDF-ENR</strong> (Paris France)
+            </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php include 'includes/scripts.html'?>
 <?php include 'includes/footer.html'?>

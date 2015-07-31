@@ -172,17 +172,6 @@ footer {
   padding-top: 1.5em;
 }
 
-/* spécifique à la deuxième page */
-
-#design #intro {
-  padding-bottom: 1ex;
-}
-
-.selection .row {
-  padding-top: 1ex;
-  padding-bottom: 1ex;
-}
-
 div.legende {
   padding-top: 1ex;
 }

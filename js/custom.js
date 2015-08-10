@@ -12,7 +12,7 @@ $(document).ready(function(){
   $('.illustration-carousel').slick({
     autoplay: true,
     arrows: false,
-    autoplayspeed: 5000
+    autoplayspeed: 3000
   });
   $('.design-carousel').slick({
     autoplay: true,

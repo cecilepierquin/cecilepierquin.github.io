@@ -12,7 +12,7 @@ $(document).ready(function(){
   $('.illustration-carousel').slick({
     autoplay: true,
     arrows: false,
-    autoplayspeed: 3000
+    autoplaySpeed: 5000
   });
   $('.design-carousel').slick({
     autoplay: true,
@@ -20,7 +20,7 @@ $(document).ready(function(){
     slidesToShow: 5,
     slidesToScroll: 1,
     swipeToSlide:true,
-    autoplayspeed: 3000,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1200,

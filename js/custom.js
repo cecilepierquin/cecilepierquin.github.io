@@ -17,7 +17,7 @@ $(document).ready(function(){
   $('.design-carousel').slick({
     autoplay: true,
     arrows: false,
-    slidesToShow: 2,
+    slidesToShow: 4,
     slidesToScroll: 1,
     swipeToSlide:true,
     autoplaySpeed: 3000,
@@ -25,25 +25,25 @@ $(document).ready(function(){
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 4
         }
       },
       {
         breakpoint: 970,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 4
         }
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2
+          slidesToShow: 3
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1
+          slidesToShow: 2
         }
       }
     ]

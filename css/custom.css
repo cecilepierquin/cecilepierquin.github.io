@@ -135,20 +135,16 @@ h2 {
   font-size: 2.94em;
 }
 
-#about .gros, .phonenumber {
-  color: #68a862;
-}
-
 .moyen {
   font-size: 1.7em;
 }
 
-#about .moyen {
-  color: #d8a058;
+.highlight {
+  color: #24a0d8;
 }
 
-.highlight, .emailaddress {
-  color: #24a0d8;
+.emailaddress {
+  color: #ef7046;
 }
 
 .petit {

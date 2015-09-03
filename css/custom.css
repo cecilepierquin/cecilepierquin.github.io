@@ -143,8 +143,14 @@ h2 {
   color: #24a0d8;
 }
 
-.emailaddress {
-  color: #ef7046;
+.email a:link {
+  color: #ed5a47;
+  text-decoration: none;
+}
+
+.email a:hover {
+  color: #483f36;
+  text-decoration: none;
 }
 
 .petit {
@@ -254,6 +260,7 @@ ul.rig.columns-4 li {
 		margin: 0 0 20px;
 	}
 }
+
 #design h3 { 
   font-size: 1.7em;
 } 

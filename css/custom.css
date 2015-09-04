@@ -12,6 +12,10 @@ h2 {
   padding-top: 40px;
 }
 
+#four-columns {
+  padding-top: 3ex;
+}
+
 .carousel {
   padding-top: 3ex;
   padding-left: 3ex;
@@ -259,4 +263,17 @@ ul.rig.columns-4 li {
 		width: 100% !important; /* over-ride all li styles */
 		margin: 0 0 20px;
 	}
+<<<<<<< .merge_file_P0sxM2
 }
+=======
+}
+
+#design h3 { 
+  font-size: 1.7em;
+} 
+
+#design p { 
+  font-size: 0.7em;
+}
+
+>>>>>>> .merge_file_lTFKRL

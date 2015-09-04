@@ -226,7 +226,7 @@ ul.rig li h3 {
 ul.rig li p {
 	font-size: 1.4em;
 	line-height: 1.5em;
-	color: #483f36;
+	color: #493f37;
 }
 /* class for 2 columns */
 ul.rig.columns-2 li {
@@ -263,17 +263,3 @@ ul.rig.columns-4 li {
 		width: 100% !important; /* over-ride all li styles */
 		margin: 0 0 20px;
 	}
-<<<<<<< .merge_file_P0sxM2
-}
-=======
-}
-
-#design h3 { 
-  font-size: 1.7em;
-} 
-
-#design p { 
-  font-size: 0.7em;
-}
-
->>>>>>> .merge_file_lTFKRL

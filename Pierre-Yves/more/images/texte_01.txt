@@ -1,0 +1,5 @@
+'href' : './images/big_01a.jpeg',
+'title'	: 'Poster \"Quelle école pour demain ?\"',
+'company' : 'Microsoft Education',
+'agency' : 'Spintank',
+'city' : 'Paris'

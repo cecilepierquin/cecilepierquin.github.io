@@ -150,12 +150,13 @@ h2 {
 
 .email a:link {
   color: #f0703c;
-  text-decoration: none;
+  text-decoration: solid;
 }
 
 .email a:hover {
-  color: #483f36;
-  text-decoration: none;
+  color: #f1703e;
+  ;
+  text-decoration: solid;
 }
 
 .petit {

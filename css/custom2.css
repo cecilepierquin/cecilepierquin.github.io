@@ -154,8 +154,18 @@ h2 {
 }
 
 .email a:hover {
-  color: #e05721;
+  color: #cc3f0c;
   ;
+  text-decoration: underline;
+}
+
+.linkedin a:link {
+  color: #0966c2;
+  text-decoration: underline;
+}
+
+.linkedin a:hover {
+  color: #094a87;
   text-decoration: underline;
 }
 

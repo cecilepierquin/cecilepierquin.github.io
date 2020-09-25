@@ -1,0 +1,220 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #493f36;
+}
+
+/* pour ne pas que la barre de navigation mange sur les titres suite à une navigation */
+header {
+  padding-top: 50px;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+#four-columns {
+  padding-top: 3ex;
+}
+
+.carousel {
+  padding-top: 3ex;
+  padding-left: 3ex;
+  padding-right: 3ex;
+}
+
+/* l'image dans le carousel ne doit pas être plus large que l'écran */
+.carousel img {
+  max-width: 100%;
+}
+
+#home section {
+  padding-bottom: 3ex;
+}
+
+#home #design, #home #getintouch {
+  padding-bottom: 0ex;
+}
+
+#home section:nth-child(odd), footer {
+  background-color: #f6f4f2;
+}
+
+img {
+  margin: 0 auto;
+}
+
+/* navbar au centre */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.navbar .navbar-home {
+    display: inline-block;
+    position: fixed;
+    padding-top: 0.4em;
+}
+
+
+@media (max-width: 768px) {
+  .navbar .navbar-home {
+      padding-left: 15px;
+  }
+}
+
+/* les liens dans la navbar dépliée sont centrés */
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar li a {
+  text-transform: uppercase;
+  color: #3a3a3a;
+}
+
+@media (max-width: 900px) {
+  .navbar li a {
+    font-size: 0.5em;
+  }
+}
+
+@media (min-width: 900px) {
+  .navbar li a {
+    font-size: 0.5em;
+  }
+  .carousel {
+    padding-right: 10em;
+    padding-left: 10em;
+      
+  }
+}
+
+h1, h2, .navbar-link {
+  font-family: "Dancing Script";;
+  text-align: center;
+  color: #f1703e;
+}
+
+.navbar-link:hover, .navbar-link:focus {
+  text-decoration: none;
+}
+
+.navbar-default .navbar-link {
+  color: #777;
+}
+
+body, .navbar-default {
+  font-size: 20px;
+}
+
+@media (max-width: 950px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 4.4em;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.3em;
+    display:none;
+  }
+  .navbar-default .navbar-link {
+    font-size: 1em;
+  }
+  footer {
+  font-size: 1.8em;
+  }
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+.gros {
+  font-size: 2.5em;
+}
+
+.moyen {
+  font-size: 1.7em;
+}
+
+.highlight {
+  color: #24a0d8;
+}
+
+.email a:link {
+  color: #f0703c;
+  text-decoration: none;
+}
+
+.email a:hover {
+  color: #483f36;
+  text-decoration: none;
+}
+
+.petit {
+  font-size: 0.7em;
+}
+
+footer {
+  font-size: 0.5em;
+  padding: 7ex;
+  color: #b3b3b3;
+}
+
+#line-airport {
+  padding-top: 1.5em;
+}
+
+#line-florence {
+  padding-top: 1.5em;
+}
+
+#line-beach {
+}
+
+div.legende {
+  padding-top: 1ex;
+}
+
+.legende {
+  text-align: center;
+}
+
+.trespetit {
+  font-size: 0.5em;
+}
+
+.company {
+  color: #a89382;
+}
+
+/* ----- Image grids ----- */
+
+.grille {
+  padding-top: 3ex;
+}
+
+.thumbnail {
+  padding: 10px;
+  box-shadow: 0 0 5px #ddd;
+}
+.thumbnail img {
+  padding-bottom: 1ex;
+}
+
+.thumbnail h3 {
+  margin: 0 0 5px;
+}
+
+.thumbnail p {
+  font-size: 0.7em;
+  line-height: 1.5em;
+  color: #493f37;
+}
+
